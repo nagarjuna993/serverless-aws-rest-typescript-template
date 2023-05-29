@@ -50,7 +50,7 @@ Check the [serverless offline documentation](https://github.com/dherault/serverl
 
 Copy and replace your `url` - found in Serverless `deploy` command output - and `name` parameter in the following `curl` command in your terminal or in Postman to test your newly deployed application.
 
-```
+``` text
 curl --location --request POST 'https://myApiEndpoint/dev/hello' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -67,7 +67,7 @@ The project code base is mainly located within the `src` folder. This folder is 
 - `functions` - containing code base and configuration for your lambda functions
 - `libs` - containing shared code base between your lambdas
 
-```
+``` text
 .
 ├── src
 │   ├── functions               # Lambda configuration and source code folder
